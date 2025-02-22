@@ -1,0 +1,116 @@
+
+.middle-container {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 20px;
+    background: linear-gradient(
+        to right in oklch, 
+        hsl(118, 98%, 52%), 
+        rgb(34, 12, 231)
+      );
+      background-clip: text;
+      color: transparent;
+}
+
+.profile {
+    grid-template-rows: 100px auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: -100px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    background: linear-gradient(
+        to right in oklch, 
+        hsl(118, 98%, 52%), 
+        rgb(34, 12, 231)
+      );
+      background-clip: text;
+      color: transparent;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: serif, cursive;
+    margin-bottom: 30px;
+}
+
+.skills {
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    margin-bottom: 50px;
+}
+
+.card {
+    margin: 10px;
+    border: none;
+    margin-left: 10px;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-img-top1 {
+    width: 350px;
+    height: 400px;
+    border-radius: 0%;
+    border: none;
+    gap: 10px;
+}
+
+.card-img-top2 {
+    width: 500px;
+    height: 400px;
+    border-radius: 0%;
+    border: none;
+    gap: 10px;
+}
+
+.card-img-top3 {
+    width: 400px;
+    height: 400px;
+    border-radius: 0%;
+    border: none;
+    gap: 10px;
+}
+
+.card-img-top4 {
+    width: 300px;
+    height: 400px;
+    border-radius: 0%;
+    border: none;
+    gap: 10px;
+}
+
+.bottom-container {
+    display: flex;
+    background-color: rgba(0, 204, 255, 0.699);
+    height: 50px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
